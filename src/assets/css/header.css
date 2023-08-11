@@ -1,0 +1,73 @@
+.container {
+  height: 36rem;
+  width: 100%;
+  background-color: aqua;
+  background-image: url("../imgs/shoping.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav {
+  height: 4.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  flex-grow: 1;
+  display: flex;
+  text-transform: uppercase;
+  margin-left: 1.2rem;
+  font-weight: bold;
+  color: gray;
+  font-size: x-large;
+}
+.gray {
+  color: gray;
+}
+.white {
+  color: white;
+}
+.nav-links {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+}
+.link {
+  margin-right: 2rem;
+  width: 10rem;
+  text-align: end;
+  cursor: pointer;
+}
+.content-block {
+  position: absolute;
+  top: 31.6%;
+  left: 9%;
+}
+.title,
+.subtitle {
+  display: flex;
+  color: white;
+  font-weight: bold;
+}
+.subtitle {
+  font-size: 1.3rem;
+}
+.title {
+  font-size: 4.2rem;
+}
+.btn {
+  display: flex;
+  background: #e74c3c;
+  border: navajowhite;
+  height: 2.8rem;
+  width: 11.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  margin-top: 1rem;
+  font-size: 19px;
+}
